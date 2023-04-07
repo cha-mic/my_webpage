@@ -85,6 +85,9 @@ header .headline{
     float: left;
     border-left: 3px darkred solid;
     padding-left: 5%;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 /* .timeline-content:before {
     content: '';
