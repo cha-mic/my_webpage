@@ -21,6 +21,27 @@ header .headline{
     font-size: 32px;
     color:darkred;
 }
+
+@keyframes fadeInAnime{
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeInAnime;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+    
+
+
+
 .nav-list {
     text-align: center;
     padding: 10px 0;
@@ -38,6 +59,11 @@ header .headline{
     display:flex;
     width: 50%;
     margin: 0 auto;
+
+    animation-name: fadeInAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity: 0;
 
 }
 .display_sns_item{
@@ -59,6 +85,11 @@ header .headline{
 .display-plofile{
     width: 60%;
     margin: 0 auto;
+
+    animation-name: fadeInAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity: 0;
 }
 
 .timeline {
@@ -100,4 +131,14 @@ header .headline{
     border-radius: 100%;
 } */
 
+.conference-list {
+    background: #f3fbff;
+    /* align: center; */
+    width: 60%;
+    margin: 0 auto;
 
+    animation-name: fadeInAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
