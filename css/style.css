@@ -22,6 +22,8 @@ header .headline{
     color:darkred;
 }
 
+/* アニメーションの定義 */
+
 @keyframes fadeInAnime{
     0% {
         opacity: 0;
@@ -38,10 +40,24 @@ header .headline{
     animation-fill-mode:forwards;
     opacity: 0;
 }
-    
 
 
+@keyframes poyopoyo {
+  0%, 40%, 60%, 80% {
+    transform: scale(1.0);
+  }
+  50%, 70% {
+    transform: scale(0.95);
+  }
+}
 
+.anim-box.poyopoyo {
+  animation: poyopoyo 2s ease-out infinite;
+  opacity: 1;
+}
+
+/* ++++++++++++++++++++++ */
+ 
 .nav-list {
     text-align: center;
     padding: 10px 0;
@@ -66,11 +82,13 @@ header .headline{
     opacity: 0;
 
 }
+
 .display_sns_item{
     width: 30%;
     margin: 0 auto;
     border-radius: 10px;
 }
+
 .sns-caption{
     text-align: center;
     font-family: 'arial black';
