@@ -57,7 +57,13 @@ header .headline{
 }
 
 /* ++++++++++++++++++++++ */
- 
+
+.caption{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'arial';
+} 
+
 .nav-list {
     text-align: center;
     padding: 10px 0;
@@ -71,9 +77,29 @@ header .headline{
     margin: 0 20px;
 }
 
+/* +++++++++++++++++++++++++ */
+
+.introduction_list {
+    display: flex;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.introduction_item {
+    text-align: left;
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    /* list-style: none;
+    display: inline-block;
+    margin: 0 20px; */
+}
+
 .display_sns{
     display:flex;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 
     animation-name: fadeInAnime;
@@ -94,11 +120,7 @@ header .headline{
     font-family: 'arial black';
     /* color:darkred; */
 }
-.caption{
-    text-align: center;
-    font-size: 24px;
-    font-family: 'arial';
-}
+
 
 .display-plofile{
     width: 60%;
