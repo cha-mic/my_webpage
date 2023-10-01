@@ -144,6 +144,7 @@ header {
 }
 
 .timeline-date{
+    font-size: 80%;
     width: 25%;
     float: left;
     /* border-right: 3px darkred solid; */
@@ -194,3 +195,38 @@ header {
     font-size: 16px;
 
 }
+
+.artifact-list {
+    /* background: #f3fbff; */
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+
+    animation-name: fadeInAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+.artifact-icon {
+    width: 20%;
+    float: left;
+}
+.artifact-explain {
+    width: 70%;
+    /* text-align: left; */
+    font-family: 'Yu Gothic';
+    font-size: 80%;
+    padding: 10px;
+    float: left;
+}
+
+.artifact-caption{
+    width: 60%;
+    margin: 0 auto;
+    
+    text-align: left;
+    font-size: 100%;
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+} 
