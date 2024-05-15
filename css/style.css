@@ -22,6 +22,10 @@ header {
     /* color: linear-gradient(to right, yellow, green); */
 }
 
+body {
+    padding-bottom: 120px; /* フッターの高さに応じて調整 */
+}
+
 /* アニメーションの定義 */
 
 @keyframes fadeInAnime{
@@ -96,6 +100,12 @@ header {
     /* list-style: none;
     display: inline-block;
     margin: 0 20px; */
+}
+
+.display_sns_head{
+    /* display:flex; */
+    width: 60%;
+    margin: 0 auto;
 }
 
 .display_sns{
@@ -230,3 +240,29 @@ header {
     font-family: 'Yu Gothic';
     font-weight: bold;
 } 
+
+/* フッター */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-content p {
+    margin: 0.5em 0;
+}
+.footer-content a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.footer-content a:hover {
+    text-decoration: underline;
+}
